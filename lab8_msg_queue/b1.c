@@ -121,7 +121,7 @@ int main(int argc, char* argv[])
                 perror("message send\n");
                 return 4;
             }
-            sleep(4);
+            sleep(8);
             return 0;
     }
     return 0;
